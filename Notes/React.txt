@@ -1,0 +1,7 @@
+分割代入について
+https://qiita.com/ikeo/items/8e8f9c6429546ca7fb03
+
+https://qiita.com/xx2xyyy/items/f767bc1768656fd9b46f
+
+propsにスプレッド構文{...object}を入れられる理由は上のURLに書いてあるように、JSXはコンパイル先でReact.createElementを使って書くと
+attributeでもオブジェクト形式に変換されるため。
