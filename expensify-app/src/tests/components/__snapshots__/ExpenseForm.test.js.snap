@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render ExpenseForm correctly 1`] = `
+exports[`should render ExpenseForm correctLy with expense data 1`] = `
 <div>
   <form
     onSubmit={[Function]}
@@ -10,13 +10,13 @@ exports[`should render ExpenseForm correctly 1`] = `
       onChange={[Function]}
       placeholder="Description"
       type="text"
-      value=""
+      value="water"
     />
     <input
       onChange={[Function]}
       placeholder="Amount"
       type="number"
-      value=""
+      value="1"
     />
     <SingleDatePicker
       anchorDirection="left"
@@ -106,7 +106,7 @@ exports[`should render ExpenseForm correctly 1`] = `
 </div>
 `;
 
-exports[`should render ExpenseForm with expense data 1`] = `
+exports[`should render ExpenseForm correctly 1`] = `
 <div>
   <form
     onSubmit={[Function]}
@@ -116,13 +116,13 @@ exports[`should render ExpenseForm with expense data 1`] = `
       onChange={[Function]}
       placeholder="Description"
       type="text"
-      value="water"
+      value=""
     />
     <input
       onChange={[Function]}
       placeholder="Amount"
       type="number"
-      value="1"
+      value=""
     />
     <SingleDatePicker
       anchorDirection="left"
