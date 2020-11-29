@@ -4,7 +4,7 @@ export default [{
   id: '1',
   description: 'water',
   note: '',
-  amount: '100',
+  amount: 100,
   createdAt: 0
 }, {
   id: '2',
